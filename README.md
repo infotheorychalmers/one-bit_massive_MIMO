@@ -26,6 +26,6 @@ The following MATLAB routines are provided in the repository
 
 Details on how to use the routines can be found in each file.
 
-Note that the mtimesx routines requires an installed C-compiler on your system, and has to be compiled before being used. Instructions on how to do some can be found in the MTIMESX manual (found in the mtimesx folder). However, two precompiled configurations that should be able to run on 64-bit Windows and OSX is provided in the release.
+Note that the mtimesx routines requires an installed C-compiler on your system, and has to be compiled before being used. Instructions on how to do some can be found in the MTIMESX manual (found in the mtimesx folder). However, two precompiled configurations that should be able to run on 64-bit Windows and OSX systems are provided in the release.
 
 
