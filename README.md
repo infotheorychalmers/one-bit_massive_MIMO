@@ -1,6 +1,5 @@
-# One-bit Massive MIMO uplink  
-=============================
-
+# One-bit Massive MIMO  
+======================
 Numerical routines for the computation of the achievable uplink throughput with PSK/QAM for a one-bit quantized massive MIMO system with a MRC/ZF receiver. The system operates over a Rayleigh fading channel with no a priori CSI available at the transmitters and the receiver. Hence, the channel fading coefficients has to be estimated based on coarsely quantized data.
 
 Please cite the following paper when using the code:
