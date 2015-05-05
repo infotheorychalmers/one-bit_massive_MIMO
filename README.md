@@ -10,14 +10,12 @@ Dependencies
 ------------
 The code is written in MATLAB. The following additional MATLAB routines (available under the BSD license) are required:
 
- * mtimesx (http://www.mathworks.com/matlabcentral/fileexchange/25977-mtimesx-fast-matrix-multiply-with-multi-dimensional-support),
- * multinv (http://www.mathworks.com/matlabcentral/fileexchange/31222-inversion-every-2d-slice-for-arbitrary-multi-dimension-array),
- * histcn (http://www.mathworks.com/matlabcentral/fileexchange/23897-n-dimensional-histogram).
+ * MTIMESX (http://www.mathworks.com/matlabcentral/fileexchange/25977-mtimesx-fast-matrix-multiply-with-multi-dimensional-support),
+ * MULTINV (http://www.mathworks.com/matlabcentral/fileexchange/31222-inversion-every-2d-slice-for-arbitrary-multi-dimension-array),
+ * HISTCN (http://www.mathworks.com/matlabcentral/fileexchange/23897-n-dimensional-histogram).
 
 Running
 -------
-
-In order to run the simulations. The above mentioned routines (provided in this release) have to be placed in the same directory. Note that mtimesx routine requires an installed C-compiler on your system, and has to be compiled before being used.
 
 The following MATLAB routines are provided in the repository
 
@@ -28,3 +26,7 @@ The following MATLAB routines are provided in the repository
   * plotRateVsT.m.
 
 Details on how to use the routines can be found in each file.
+
+Note that the mtimesx routines requires an installed C-compiler on your system, and has to be compiled before being used. Instructions on how to do some can be found in the MTIMESX manual (found in the mtimesx folder). However, two precompiled configurations that should be able to run on 64-bit Windows and OSX is provided in the release.
+
+
